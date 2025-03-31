@@ -1,0 +1,6 @@
+@GcpDeployment_HostAddress = http://localhost:5181
+
+GET {{GcpDeployment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
